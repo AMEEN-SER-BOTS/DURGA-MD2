@@ -58,7 +58,7 @@
 <br>
 
 <p align="center">  
-<a href='https://dashboard.heroku.com' target="_blank"><img alt='DEPLOY_ON_HEROKU' src='https://img.shields.io/badge/DEPLOY_ON_HEROKU-white?style=for-the-badge&logo=FORK bot-BOT&logoColor=purple'/></a>
+<a href='[https://dashboard.heroku.com](https://heroku.com/deploy?template=https://github.com/AMEEN-SER-BOTS/DURGA-MD2)' target="_blank"><img alt='DEPLOY_ON_HEROKU' src='https://img.shields.io/badge/DEPLOY_ON_HEROKU-white?style=for-the-badge&logo=FORK bot-BOT&logoColor=purple'/></a>
 
 
 ### COPY AND EDIT        
