@@ -18,7 +18,6 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.ibb.co/JvvB8Y7/aad0f7
 module.exports = {
   sessionName: process.env.SESSION_ID || 'DURGA;;;',
   botname: process.env.BOT_NAME || 'DURGA-MD',
-  ownername:  process.env.OWNER_NAME || `༆🇦🇱⃞➵𝗔𝗠𝗘𝗘𝗡-𝗦𝗘𝗥🇦🇱⃪⃞➣࿐⁩`,
   author:  process.env.PACK_AUTHER || '༆🇦🇱⃞➵𝗔𝗠𝗘𝗘𝗡-𝗦𝗘𝗥🇦🇱⃪⃞➣࿐', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname:  process.env.PACK_NAME || "༆🇦🇱⃞➵𝗔𝗠𝗘𝗘𝗡-𝗦𝗘𝗥🇦🇱⃪⃞➣࿐" , 
