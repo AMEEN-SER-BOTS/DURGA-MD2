@@ -1,5 +1,5 @@
 const fs = require('fs-extra')
-if (fs.existsSync('config.js')) require('dotenv').config({ path: __dirname+'/config.js' })
+if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 global.owner = process.env.OWNER_NUMBER || '916238768108' ;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://danielpeter:beka10beka10@cluster0.ef032ix.mongodb.net/?retryWrites=true&w=majority" ;
