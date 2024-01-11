@@ -59,7 +59,7 @@
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit to get Session id",
-    "value": ""
+    "value": "hehe"
   },
 
   "WELCOME_MESSAGE": {
@@ -80,12 +80,12 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-     "value": "⁩",
+     "value": "⁩hehe",
      "required": false 
   },
 "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-     "value": "⁩",
+     "value": "⁩hehe",
      "required": false 
   },
 
