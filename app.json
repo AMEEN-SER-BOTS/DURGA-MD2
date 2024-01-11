@@ -3,6 +3,7 @@
   "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium.",
   "logo": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "DURGA_MD", "AMEEN_SER", "AMEEN_SER_BOTS","DURGA_MD_AMEEN"],
+  "repository": "https://github.com/AMEEN-SER-BOTS/DURGA-MD2",
   "success_url": "/",
   "stack": "container",
 "env": {
