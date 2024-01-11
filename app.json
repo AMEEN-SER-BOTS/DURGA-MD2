@@ -1,96 +1,18 @@
 {
-  "name": "DURGA-MD BY AMEEN SER",
-  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium.",
+  "name": "DURGA-MD",
+  "description": "MD BOT MADE BY AMEEN SER",
+  "repository": "https://github.com/AmeenRepo/DURGA-MD",
   "logo": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "DURGA_MD", "AMEEN_SER", "AMEEN_SER_BOTS","DURGA_MD_AMEEN"],
-  "repository": "https://github.com/AMEEN-SER-BOTS/DURGA-MD2",
-  "success_url": "/",
-"env": {
-  "OWNER_NAME": {
-  "description": "Name of Bot Owner",
-      "value": ""
-  },
-   "THUMB_IMAGE": {
-    "description": "THUMBNAIL Image for bot.",
-     "value": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg"
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "DURGA-MD", "GURU-bot-md", "GURU-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
     },
- "HEROKU_API_KEY": {
-    "description": "Put Your Heroku Api Key Here",
-     "value": ""
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
-"HEROKU_APP_NAME": {
-    "description": "Put Your Heroku App Name Here. Same as Above",
-     "value": ""
-    },
-   "ANTILINK_VALUES": {
-    "description": "Put words for antilink",
-     "value": "chat.whatsapp.com",
-     "required" :false
-    },
-
-"MSGS_IN_LOG": {
-    "description": "Fill the value true if you want to see Messages in Console.",
-     "required" :false,
-     "value": "false"
-    },
-      "READ_MESSAGE": {
-    "description": "Fill the value false if you not want bot to read all messages.",
-     "required" :false,
-     "value": "true"
-    },
-   "DISABLE_PM": {
-    "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
-      "value": "false",
-     "required" :false
-    },
-"ALWAYS_ONLINE": {
-    "description": "Take it 'true' if you  wanna show Always Onlline on whatsapp",
-      "value": "false",
-     "required" :false
-    },
-      "PREFIX": {
-  "description": "Enter your desired prefix for bot.",
-      "value": ","
-  },
-  "OWNER_NUMBER": {
-    "description": "OWNER NUMBER",
-       "value": "916238768108"
-  },
-   "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit to get Session id",
-    "value": "hehe"
-  },
-
-  "WELCOME_MESSAGE": {
-    "description": "Enter the message here which you want to see when a new user joins a Group.",
-       "value": " @pp *_@user_*\n*_Welcome to @gname_*\n*_Read The Description CareFully_*",
-       "required" :false
-  },
-  
-    "WORKTYPE": {
-  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public",
-         "required": "true"
-  },
-      "AUTO_REACTION": {
-    "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
-     "value": "true",
-     "required": false 
-  },
-
-
-"BOT_NAME": {
-  "description": "Add Your Own Bot Name",
-   "value": "🗡️DURGA-MD"
-    
-},
-
-
-"addons": [
-		{
-			"plan": "heroku-postgresql"
-		}
-	]
- 
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
 }
-
