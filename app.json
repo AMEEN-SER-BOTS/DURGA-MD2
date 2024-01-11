@@ -5,7 +5,6 @@
   "keywords": ["nodejs", "bot", "whatsapp bot", "DURGA_MD", "AMEEN_SER", "AMEEN_SER_BOTS","DURGA_MD_AMEEN"],
   "repository": "https://github.com/AMEEN-SER-BOTS/DURGA-MD2",
   "success_url": "/",
-  "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
