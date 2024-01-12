@@ -1,26 +1,72 @@
 {
-  "name": "DURGA-MD",
-  "description": "MD BOT MADE BY AMEEN SER",
-  "repository": "https://github.com/AmeenRepo/DURGA-MD",
+  "name": "DURGA MD WABOT MADE BY AMEEN",
+  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium.",
   "logo": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "DURGA-MD", "GURU-bot-md", "GURU-bot"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
+  "keywords": ["nodejs", "bot", "whatsapp_bot", "AMEEN", "AMEEN_SER", "DURGA","DURGA_MD"],
   "success_url": "/",
   "stack": "container",
 "env": {
+  "OWNER_NAME": {
+  "description": "Name of Bot Owner",
+      "value": "AMEEN SER"
+  },
+   
+ "HEROKU_API_KEY": {
+    "description": "Put Your Heroku Api Key Here",
+     "value": ""
+    },
+"HEROKU_APP_NAME": {
+    "description": "Put Your Heroku App Name Here. Same as Above",
+     "value": ""
+    },
+   "ANTILINK_VALUES": {
+    "description": "Put words for antilink",
+     "value": "chat.whatsapp.com",
+     "required" :false
+    },
   
-   "THUMB_IMAGE": {
-    "description": "THUMBNAIL Image for bot.",
-     "value": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg"
-    }
+
+"ALWAYS_ONLINE": {
+    "description": "Take it 'true' if you  wanna show Always Onlline on whatsapp",
+      "value": "false",
+     "required" :false
+    },
+      "PREFIX": {
+  "description": "Enter your desired prefix for bot.",
+      "value": "."
+  },
+  "OWNER_NUMBER": {
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+       "value": "916238768108"
+  },
+   "SESSION_ID": {
+    "description": "Please put your SESSION_ID here,if you don't have visit to get Session id",
+    "value": "DURGA;;;"
+  },
+    
+  "PACK_NAME": {
+    "description": "Put Sticker Pack_Name.",
+     "value": "𝞓𝞛𝞢𝞢𝞜-𝙎𝞢𝞒",
+     "required": false 
+  },
+"PACK_AUTHER": {
+    "description": "Put Sticker Author_Name.",
+     "value": "𝞓𝞛𝞢𝞢𝞜-𝙎𝞢𝞒",
+     "required": false 
+  },
+
+"BOT_NAME": {
+  "description": "Add Your Own Bot Name",
+   "value": "𝞛𝞘𝞛𝞛𝞘-𝞛𝘿"
+    
 }
+},
+
+"addons": [
+		{
+			"plan": "heroku-postgresql"
+		}
+	]
+ 
+}
+
