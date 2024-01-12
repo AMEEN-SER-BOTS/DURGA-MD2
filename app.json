@@ -18,10 +18,7 @@
   "success_url": "/",
   "stack": "container",
 "env": {
-  "OWNER_NAME": {
-  "description": "Name of Bot Owner",
-      "value": "༆🇦🇱⃞➵𝗔𝗠𝗘𝗘𝗡-𝗦𝗘𝗥🇦🇱⃪⃞➣࿐⁩"
-  },
+  
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
      "value": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg"
