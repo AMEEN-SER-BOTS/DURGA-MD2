@@ -1,6 +1,19 @@
-FROM quay.io/maherzubair/sigma-md:beta
-RUN git clone https://github.com/ameen-ser-bots/durga-md2 /root/ameen-ser-bots/durga-md2
-WORKDIR /root/ameen-ser-bots/durga-md2/
-RUN npm install
-EXPOSE 8000
-CMD ["npm", "start"]
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+
+COPY package.json .
+
+RUN npm install && npm install qrcode-terminal
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "index.js", "--server"]
